@@ -1,0 +1,40 @@
+<html>
+  <head>
+    <title>GRAPHS</title>
+    <link rel="stylesheet" href="/static/chart.css">
+  </head>
+  <body>
+    <h1 style="text-align: center;">ROTATIONS</h1>
+    <!-- <form method="POST" action="" enctype="multipart/form-data">
+      <p><input type="file" name="file"></p>
+      <p><input type="submit" value="Submit"></p>
+    </form> -->
+    <!-- <img src="{{ url_for('static', filename='images/plot.jpg')}}"> -->
+
+    <div class="responsive">
+      <div class="gallery">
+          <img src="{{ url_for('static', filename='images/rotations1.jpg')}}" alt="Cinque Terre" width="800" height="600">
+        <div class="desc">This graph shows maximum rotations are 15 per minute. Rotations Fluctuates when its turned OFF and when restarts. It remains stable at 15 rotations if not shut down.</div>
+      </div>
+    </div>
+
+    <div class="responsive">
+      <div class="gallery">
+          <img src="{{ url_for('static', filename='images/rotations2.jpg')}}" alt="Cinque Terre" width="800" height="600">
+        <div class="desc">This graph shows maximum rotations are 20 per minute. Rotations Fluctuates when its turned OFF and when restarts. It remains stable at 20 rotations if not shut down.</div>
+      </div>
+    </div>
+
+    <div class="responsive">
+      <div class="gallery">
+          <img src="{{ url_for('static', filename='images/rotations3.jpg')}}" alt="Cinque Terre" width="800" height="600">
+        <div class="desc">This graph shows maximum rotations are 15 per minute. Rotations Fluctuates when its turned OFF and when restarts. Rotations fluctuates more often.</div>
+      </div>
+    </div>
+    
+    <div class="=button">
+      <button><a href="chart.html" type="submit">GO BACK</a></button>
+    </div>
+
+  </body>
+</html>

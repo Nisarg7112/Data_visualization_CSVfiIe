@@ -1,0 +1,30 @@
+<html>
+  <head>
+    <title>File Upload</title>
+    <link rel="stylesheet" href="/static/index.css">
+  </head>
+  <body>
+    <div style="text-align: center;">
+         <h1>DATA VISUALIZATION</h1>
+    </div>
+        <p>This is a web interface to upload the csv file and display data visuals.</p>
+    <div class="list">
+        It includes the following data visuals.
+        <ul>
+            <li>Line graph : Number of Rotations for Each minute</li>
+            <li>Bar graph : Efficiency of the device (Avg. Rpm)</li>
+            <li>Double Bar graph : Device wise Total on-time and off-time.</li>
+        </ul>
+    </div>
+    <h2>Upload your CSV file</h2>
+    <form method="POST" action="" enctype="multipart/form-data">
+      <p class="button"><input type="file" name="file"></p>
+      <p class="button"><input type="submit" value="Submit"></p>
+    </form>
+    <div>
+      <img src="{{ url_for('static', filename='images/ima.jpg')}}" width="600" height="400">
+      </div>
+    <div class="iv"></div>
+    <div class="ivt"></div>
+  </body>
+</html>

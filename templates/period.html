@@ -1,0 +1,40 @@
+<html>
+  <head>
+    <title>GRAPHS</title>
+    <link rel="stylesheet" href="/static/chart.css">
+  </head>
+  <body>
+    <h1 style="text-align: center;">WORKING PERIOD</h1>
+    <!-- <form method="POST" action="" enctype="multipart/form-data">
+      <p><input type="file" name="file"></p>
+      <p><input type="submit" value="Submit"></p>
+    </form> -->
+    <!-- <img src="{{ url_for('static', filename='images/plot.jpg')}}"> -->
+
+    <div class="responsive">
+      <div class="gallery">
+          <img src="{{ url_for('static', filename='images/period1.jpg')}}" alt="Cinque Terre" width="800" height="500">
+        <div class="desc">This graphs shows that this device has been ON nearly 95% of the time.Thus due to this it has been successfull to achieve more number of rotations.</div>
+      </div>
+    </div>
+
+    <div class="responsive">
+      <div class="gallery">
+          <img src="{{ url_for('static', filename='images/period2.jpg')}}" alt="Cinque Terre" width="800" height="500">
+        <div class="desc">This graphs shows that this device has been ON nearly 82% of the time. It is slightly lower than Device 1.</div>
+      </div>
+    </div>
+
+    <div class="responsive">
+      <div class="gallery">
+          <img src="{{ url_for('static', filename='images/period3.jpg')}}" alt="Cinque Terre" width="800" height="500">
+        <div class="desc">This graphs shows that this device has been ON nearly 80% of the time. Due to this lower ON time it has lower rotations than other ddevices.</div>
+      </div>
+    </div>
+    
+    <div class="button">
+      <button><a href="chart.html" type="submit">GO BACK</a></button>
+    </div>
+
+  </body>
+</html>

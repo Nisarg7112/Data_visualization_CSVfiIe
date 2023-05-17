@@ -1,0 +1,35 @@
+<html>
+  <head>
+    <title>GRAPHS</title>
+    <link rel="stylesheet" href="/static/chart.css">
+  </head>
+  <body>
+    <h1 style="text-align: center;">AVERAGE ROTATIONS</h1>
+    <!-- <form method="POST" action="" enctype="multipart/form-data">
+      <p><input type="file" name="file"></p>
+      <p><input type="submit" value="Submit"></p>
+    </form> -->
+    <!-- <img src="{{ url_for('static', filename='images/plot.jpg')}}"> -->
+
+    <div class="responsive">
+      <div class="gallery">
+          <img src="{{ url_for('static', filename='images/avg.jpg')}}" alt="Cinque Terre" width="800" height="600">
+        <div class="desc">Above graph shows Average rotations for all devices and we can conclude that Device 2 has maximum Efficiency and Device 3 has lowest</div>
+      </div>
+    </div>
+    
+    <div class="button"> 
+      <p>To check Rotations of every minute for all devices</p>
+      <button><a href="rotations.html" type="submit">Click Here</a></button>
+    </div>
+    <div class="button">
+      <p>To check Working Period for all devices</p>
+      <button><a href="period.html" type="submit">Click Here</a></button>
+    </div>
+
+    <div class="button">
+      <button><a href="/" type="submit">GO BACK</a></button>
+    </div>
+
+  </body>
+</html>
